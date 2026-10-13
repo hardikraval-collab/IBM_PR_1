@@ -1,0 +1,185 @@
+# Health Conditions & Dietary Guidelines
+
+## Type 2 Diabetes Management
+
+### Dietary Principles
+- Prioritize low glycaemic index (GI) foods (GI < 55)
+- Reduce refined carbohydrates significantly
+- Distribute carbohydrates evenly across meals
+- Increase dietary fibre intake (target 35-40g/day)
+- Include protein with every meal to slow glucose absorption
+- Avoid sugary drinks, fruit juices, and sweetened foods
+
+### Recommended Foods for Diabetics
+- Whole grains: oats, brown rice, barley, quinoa
+- Non-starchy vegetables: broccoli, spinach, cauliflower, mushrooms
+- Legumes: lentils, chickpeas, kidney beans (excellent for blood sugar control)
+- Lean proteins: fish, chicken, tofu, Greek yoghurt
+- Healthy fats: avocado, nuts, olive oil
+
+### Foods to Strictly Limit
+- White rice, white bread, potatoes, corn
+- Sugary drinks, fruit juices, desserts
+- Processed snacks, crackers, cookies
+- Alcohol
+
+### Meal Timing for Diabetics
+- 3 meals + 2-3 small snacks to prevent blood sugar spikes
+- Never skip meals
+- Consistent meal times daily
+
+---
+
+## Heart Health & Cardiovascular Disease
+
+### Dietary Principles
+- Reduce saturated fat to < 7% of calories
+- Eliminate trans fats completely
+- Increase omega-3 fatty acids
+- Increase dietary fibre, especially soluble fibre
+- Reduce sodium to < 1500mg/day
+- Follow Mediterranean or DASH-style eating patterns
+
+### Heart-Protective Foods
+- Fatty fish: salmon, sardines, mackerel (2 servings/week)
+- Nuts: almonds, walnuts, pistachios
+- Olive oil (replace butter and processed oils)
+- Avocado
+- Berries (antioxidant-rich)
+- Dark leafy greens: spinach, kale, arugula
+- Whole grains: oats, barley (soluble fibre reduces LDL)
+- Legumes: lentils, chickpeas, beans
+
+### Foods to Avoid for Heart Health
+- Processed meats (sausages, hot dogs, deli meats)
+- Fried foods and fast food
+- Full-fat dairy in excess
+- Coconut oil and palm oil in large quantities
+- Refined carbohydrates and sugars
+
+---
+
+## Gut Health & Digestive Wellness
+
+### Microbiome-Supporting Foods
+**Probiotic-Rich Foods (live cultures):**
+- Greek yoghurt, kefir
+- Kimchi, sauerkraut, tempeh, miso
+- Kombucha (low sugar)
+- Buttermilk (chaas)
+
+**Prebiotic Foods (feeds good bacteria):**
+- Garlic, onions, leeks
+- Oats (beta-glucan)
+- Bananas (slightly unripe)
+- Asparagus, artichokes
+- Apples (pectin)
+
+### High-Fibre Foods for Gut Health
+- Legumes: 25-35g fibre/100g dry weight
+- Chia seeds: 34g fibre/100g
+- Avocado: 6.7g fibre/100g
+- Broccoli: 2.6g fibre/100g
+- Leafy greens: 2-4g fibre/100g
+
+### Foods That Harm Gut Health
+- Artificial sweeteners (aspartame, sucralose)
+- Ultra-processed foods
+- Excessive alcohol
+- Excessive red meat
+- Antibiotic overuse (disrupts microbiome)
+
+---
+
+## Weight Management
+
+### Scientific Principles
+- 1 kg of fat ≈ 7700 kcal deficit needed
+- Safe rate of loss: 0.5–1 kg per week
+- Caloric deficit of 300–500 kcal/day recommended
+- Protein priority for muscle preservation during deficit
+
+### DIP Diet Weight Loss Protocol
+1. Calculate TDEE (Total Daily Energy Expenditure)
+2. Create 300-500 kcal daily deficit
+3. Protein target: 1.2-1.6g/kg body weight
+4. Fill remaining calories with complex carbs and healthy fats
+5. 16:8 intermittent fasting window
+6. 150+ minutes moderate exercise per week
+
+### Plateau-Breaking Strategies
+- Calorie cycling (higher/lower days alternating)
+- Increase NEAT (non-exercise activity thermogenesis)
+- Re-evaluate portion sizes
+- Ensure adequate sleep (7-9 hours critical for weight loss)
+- Manage stress (cortisol promotes fat storage)
+
+---
+
+## Food Allergy Management
+
+### Common Food Allergies (Big 8)
+1. **Milk/Dairy:** Substitute with oat milk, almond milk, soy milk, coconut milk
+2. **Eggs:** Substitute with flax eggs (1 tbsp ground flax + 3 tbsp water), chia eggs, banana
+3. **Peanuts:** Substitute with almond butter, sunflower seed butter, tahini
+4. **Tree Nuts:** Substitute with seeds (pumpkin, sunflower, hemp)
+5. **Wheat/Gluten:** Substitute with rice, quinoa, oats (certified GF), millet, buckwheat
+6. **Soy:** Substitute with other plant proteins (pea protein, lentils, hemp seeds)
+7. **Fish:** Substitute with flaxseeds/chia for omega-3; legumes for protein
+8. **Shellfish:** Substitute with other lean proteins
+
+### DIP Diet Allergy-Safe Swaps
+- **Dairy-free protein:** Legumes + rice (complete amino acid profile), quinoa, hemp seeds
+- **Gluten-free grains:** Quinoa, brown rice, millet, buckwheat, certified GF oats
+- **Nut-free fats:** Avocado, olive oil, seeds, coconut
+
+---
+
+## Vegetarian & Vegan Nutrition
+
+### Complete Protein Combinations (Plant-Based)
+- Rice + Lentils (dal chawal) — complete amino acid profile
+- Quinoa alone — complete protein
+- Tofu + whole grains
+- Hummus + whole wheat pita
+- Edamame — complete protein
+
+### Critical Nutrients for Vegans
+| Nutrient | Best Plant Sources | Notes |
+|---------|-------------------|-------|
+| Vitamin B12 | Fortified foods | Supplement recommended |
+| Vitamin D | Fortified foods, sunlight | Supplement often needed |
+| Iron | Lentils, spinach, pumpkin seeds | Pair with Vitamin C |
+| Calcium | Fortified plant milk, tofu, kale | Aim 1000mg/day |
+| Omega-3 | Flaxseeds, chia, walnuts | Consider algae-based DHA |
+| Zinc | Pumpkin seeds, chickpeas, cashews | Soak legumes to increase absorption |
+| Iodine | Seaweed, iodized salt | Small amounts from seaweed |
+
+---
+
+## Intermittent Fasting Protocols
+
+### 16:8 Protocol (DIP Diet Standard)
+- Fast for 16 hours (includes sleep)
+- Eat within an 8-hour window
+- Example: Eat from 10am to 6pm
+- Best for: general health, weight management, metabolic health
+
+### 5:2 Protocol (Advanced)
+- Normal eating 5 days per week
+- Restrict to 500-600 kcal on 2 non-consecutive days
+- Best for: accelerated weight loss, metabolic reset
+
+### Breaking the Fast
+- Break fast with something easy to digest: fruit, yoghurt, light soup
+- Avoid heavy, rich meals immediately after fasting
+- Protein-rich first meal helps preserve muscle
+
+### Who Should NOT do Intermittent Fasting
+- Pregnant or breastfeeding women
+- Children and teenagers
+- People with history of eating disorders
+- Individuals with Type 1 Diabetes (without medical supervision)
+- Those who are underweight
+
+**Always consult a healthcare provider before beginning any fasting protocol.**

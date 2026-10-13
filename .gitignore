@@ -1,0 +1,71 @@
+﻿# ============================================================
+# DIP Diet RAG Agent — .gitignore
+# Repository root: IBM_PR_1
+# ============================================================
+
+# ── Python cache & compiled files ────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ── Virtual environments ─────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Environment / secrets (keep .env.example, ignore .env) ───
+.env
+*.env
+!.env.example
+
+# ── Vector database (local ChromaDB — rebuilt on ingest) ─────
+dip_diet_agent/data/chroma_db/
+
+# ── Private user profiles ─────────────────────────────────────
+dip_diet_agent/data/profiles/
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+server.log
+
+# ── Test / coverage artifacts ────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+# ── Distribution / packaging ─────────────────────────────────
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+*.tar.gz
+
+# ── IDE / editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ── OS-generated files ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Jupyter Notebooks (if any) ───────────────────────────────
+.ipynb_checkpoints/
+
+# ── Node (if frontend tooling is ever added) ─────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

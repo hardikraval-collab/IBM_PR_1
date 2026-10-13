@@ -1,0 +1,21 @@
+# Python virtual environments
+dip_diet_agent/venv/
+dip_diet_agent/__pycache__/
+dip_diet_agent/**/__pycache__/
+dip_diet_agent/**/*.pyc
+dip_diet_agent/.pytest_cache/
+
+# Sensitive data
+dip_diet_agent/.env
+
+# ChromaDB & user data
+dip_diet_agent/data/chroma_db/
+dip_diet_agent/data/profiles/
+
+# Logs
+dip_diet_agent/server.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

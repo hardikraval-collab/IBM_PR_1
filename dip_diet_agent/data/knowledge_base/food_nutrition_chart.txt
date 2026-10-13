@@ -1,0 +1,105 @@
+# Food Nutrition Chart — Caloric and Macro Reference
+
+## Grains & Cereals (per 100g cooked)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Fibre (g) |
+|------|----------|-------------|-----------|---------|-----------|
+| Brown Rice | 111 | 2.6 | 23 | 0.9 | 1.8 |
+| White Rice | 130 | 2.7 | 28 | 0.3 | 0.4 |
+| Quinoa | 120 | 4.4 | 21.3 | 1.9 | 2.8 |
+| Oats (rolled) | 71 | 2.5 | 12 | 1.4 | 1.7 |
+| Whole Wheat Bread (1 slice) | 70 | 3.6 | 12 | 1.1 | 1.9 |
+| Millet (cooked) | 119 | 3.5 | 23.7 | 1 | 1.3 |
+| Whole Wheat Roti (1 medium) | 70 | 2.5 | 14 | 0.8 | 1.5 |
+| Poha / Beaten Rice | 76 | 1.6 | 17 | 0.5 | 0.4 |
+
+## Legumes & Pulses (per 100g cooked)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Fibre (g) |
+|------|----------|-------------|-----------|---------|-----------|
+| Lentils (red dal) | 116 | 9 | 20 | 0.4 | 7.9 |
+| Chickpeas (boiled) | 164 | 8.9 | 27 | 2.6 | 7.6 |
+| Kidney Beans (rajma) | 127 | 8.7 | 22.8 | 0.5 | 6.4 |
+| Black Beans | 132 | 8.9 | 23.7 | 0.5 | 8.7 |
+| Moong Dal | 105 | 7.6 | 18 | 0.4 | 7.6 |
+| Toor Dal | 116 | 7.2 | 20.6 | 0.7 | 5.3 |
+| Edamame | 121 | 11.9 | 8.9 | 5.2 | 5.2 |
+
+## Vegetables (per 100g raw)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Key Nutrients |
+|------|----------|-------------|-----------|---------|---------------|
+| Spinach | 23 | 2.9 | 3.6 | 0.4 | Iron, Vitamin K, Folate |
+| Broccoli | 34 | 2.8 | 6.6 | 0.4 | Vitamin C, K, Chromium |
+| Tomato | 18 | 0.9 | 3.9 | 0.2 | Lycopene, Vitamin C |
+| Carrot | 41 | 0.9 | 9.6 | 0.2 | Beta-carotene, Vitamin A |
+| Bell Pepper (red) | 31 | 1 | 6 | 0.3 | Vitamin C, B6 |
+| Cauliflower | 25 | 1.9 | 5 | 0.3 | Vitamin C, B6, Folate |
+| Mushroom | 22 | 3.1 | 3.3 | 0.3 | Vitamin D, B vitamins |
+| Cucumber | 15 | 0.7 | 3.6 | 0.1 | Hydration, Vitamin K |
+| Kale | 49 | 4.3 | 8.8 | 0.9 | Vitamin K, C, A, Calcium |
+
+## Fruits (per 100g)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Key Nutrients |
+|------|----------|-------------|-----------|---------|---------------|
+| Apple | 52 | 0.3 | 14 | 0.2 | Fibre, Vitamin C |
+| Banana | 89 | 1.1 | 23 | 0.3 | Potassium, B6, Fibre |
+| Mango | 60 | 0.8 | 15 | 0.4 | Vitamin A, C, B6 |
+| Berries (mixed) | 57 | 0.7 | 14 | 0.3 | Antioxidants, Vitamin C |
+| Avocado | 160 | 2 | 9 | 15 | Healthy fats, K, Folate |
+| Watermelon | 30 | 0.6 | 7.5 | 0.2 | Lycopene, Vitamin A |
+| Papaya | 43 | 0.5 | 11 | 0.3 | Vitamin C, Papain |
+
+## Proteins — Plant Based (per 100g)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Notes |
+|------|----------|-------------|-----------|---------|-------|
+| Firm Tofu | 144 | 17 | 3 | 8 | High protein, low carb |
+| Tempeh | 193 | 19 | 9.4 | 11 | Fermented, probiotic |
+| Paneer | 265 | 18 | 1.2 | 21 | High calcium |
+| Greek Yoghurt | 100 | 10 | 4 | 5 | Probiotic, calcium |
+| Cottage Cheese | 98 | 11 | 3.4 | 4.3 | Casein protein |
+
+## Proteins — Animal Based (per 100g)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Notes |
+|------|----------|-------------|-----------|---------|-------|
+| Chicken Breast | 165 | 31 | 0 | 3.6 | Lean, versatile |
+| Salmon | 208 | 20 | 0 | 13 | Omega-3 rich |
+| Tuna | 132 | 28 | 0 | 1 | High protein, low fat |
+| Eggs (whole) | 155 | 13 | 1.1 | 11 | Complete amino acids |
+| Turkey Breast | 135 | 30 | 0 | 1 | Very lean protein |
+
+## Nuts & Seeds (per 30g serving)
+| Food | Calories | Protein (g) | Carbs (g) | Fat (g) | Key Nutrients |
+|------|----------|-------------|-----------|---------|---------------|
+| Almonds | 174 | 6 | 6 | 15 | Vitamin E, Magnesium |
+| Walnuts | 185 | 4.3 | 3.9 | 18 | Omega-3 ALA |
+| Chia Seeds | 137 | 4.7 | 12 | 8.7 | Omega-3, Fibre, Calcium |
+| Pumpkin Seeds | 151 | 7 | 5 | 13 | Zinc, Magnesium |
+| Flaxseeds | 150 | 5.2 | 8.1 | 11.8 | Omega-3 ALA, Lignans |
+| Sunflower Seeds | 164 | 5.8 | 5.7 | 14 | Vitamin E, Selenium |
+
+## Healthy Fats & Oils (per tablespoon)
+| Food | Calories | Fat (g) | Type |
+|------|----------|---------|------|
+| Extra Virgin Olive Oil | 119 | 13.5 | Monounsaturated |
+| Coconut Oil | 117 | 13.6 | Saturated (MCT) |
+| Ghee | 112 | 12.7 | Saturated |
+| Avocado Oil | 124 | 14 | Monounsaturated |
+| Flaxseed Oil | 120 | 13.6 | Omega-3 rich |
+
+## Glycaemic Index Reference
+| Category | GI Range | Examples |
+|----------|----------|---------|
+| Low GI (< 55) | Recommended | Lentils (21), Chickpeas (28), Apple (36), Brown Rice (50), Oats (55) |
+| Medium GI (56–69) | Moderate | Whole Wheat Bread (65), Brown Rice (55–65) |
+| High GI (70+) | Limit | White Rice (73), White Bread (75), Cornflakes (81) |
+
+## Daily Recommended Intakes (General Adult)
+| Nutrient | Recommended Daily Intake |
+|---------|--------------------------|
+| Calories | 1800–2400 kcal (activity dependent) |
+| Protein | 0.8g/kg body weight (minimum) |
+| Dietary Fibre | 25–38g |
+| Vitamin C | 75–90mg |
+| Iron | 8–18mg |
+| Calcium | 1000mg |
+| Vitamin D | 600–800 IU |
+| Omega-3 | 1.1–1.6g ALA |
+| Water | 2.5–3.5 litres |

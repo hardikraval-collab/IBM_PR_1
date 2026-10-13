@@ -1,0 +1,83 @@
+# DIP Diet — Food Substitution Guide
+
+## Dairy Substitutes
+| Original | DIP Diet Substitute | Ratio | Notes |
+|---------|-------------------|-------|-------|
+| Full-fat milk | Oat milk / Almond milk | 1:1 | Lower saturated fat |
+| Butter | Avocado / Olive oil | 1:1 | Healthier fat profile |
+| Cream | Cashew cream / Coconut milk | 1:1 | Soak 1 cup cashews, blend |
+| Cheese | Nutritional yeast | 2 tbsp per serving | B-vitamin rich |
+| Paneer | Firm tofu | 1:1 | Lower fat, high protein |
+| Regular yoghurt | Greek yoghurt | 1:1 | Higher protein |
+
+## Refined Carb Substitutes
+| Original | DIP Diet Substitute | Notes |
+|---------|-------------------|-------|
+| White rice | Brown rice / Quinoa / Cauliflower rice | Lower GI |
+| White bread | Whole wheat bread / Sourdough | Higher fibre |
+| Maida (all-purpose flour) | Whole wheat atta / Almond flour / Oat flour | Higher protein, fibre |
+| Regular pasta | Whole wheat pasta / Zucchini noodles / Chickpea pasta | Lower GI |
+| White sugar | Jaggery (limited) / Dates / Stevia / Monk fruit | Natural, lower GI |
+| Refined oil | Cold-pressed oils (olive, mustard, coconut) | Better fat profile |
+
+## Sugar Substitutes
+| Original | DIP Diet Substitute | Usage | Notes |
+|---------|-------------------|-------|-------|
+| White sugar (1 tsp) | 2 dates (blended) | Baking, smoothies | Fibre + minerals |
+| White sugar (1 tsp) | 1 tsp raw honey | Hot drinks, dressings | Antioxidants |
+| White sugar (1 tsp) | 1/2 tsp jaggery | Indian sweets | Iron, trace minerals |
+| White sugar | Stevia drops | Beverages | Zero calorie |
+| White sugar | Ripe banana | Smoothies, baking | Potassium, fibre |
+
+## Fat Substitutes
+| Original | DIP Diet Substitute | Notes |
+|---------|-------------------|-------|
+| Butter | Mashed avocado | On toast, in baking |
+| Ghee (excessive) | Small amount of cold-pressed oil | Use < 1 tsp per meal |
+| Mayonnaise | Hung curd / Greek yoghurt | Lower fat, probiotic |
+| Deep-frying oil | Air frying / Baking with 1 tsp oil | 80% less fat |
+
+## Protein Substitutes
+| Original | DIP Diet Substitute | Protein per 100g |
+|---------|-------------------|-----------------|
+| Red meat | Chicken breast / Fish | 20-31g protein |
+| Chicken | Tofu / Tempeh | 17-19g protein |
+| Eggs | Legumes + whole grains | Variable |
+| Eggs (for binding) | Flax egg (1 tbsp ground flax + 3 tbsp water) | For baking |
+| Whey protein | Plant protein powder (pea/hemp) | For vegans |
+
+## High-Calorie Ingredient Substitutes
+| Original | DIP Diet Substitute | Calorie Saving |
+|---------|-------------------|----------------|
+| 1 cup coconut cream (444 kcal) | 1 cup coconut milk (138 kcal) | 306 kcal saved |
+| 2 tbsp butter (204 kcal) | 1/2 avocado (120 kcal) | 84 kcal saved |
+| 1/2 cup cashews (393 kcal) | 1/2 cup chickpeas (164 kcal) | 229 kcal saved |
+| 1 cup heavy cream (820 kcal) | 1 cup Greek yoghurt (100 kcal) | 720 kcal saved |
+| 1 cup white rice (242 kcal) | 1 cup cauliflower rice (25 kcal) | 217 kcal saved |
+
+## Spice & Flavour Substitutes
+| Purpose | DIP Diet Options | Benefits |
+|---------|-----------------|---------|
+| Salt reduction | Lemon juice, herbs, spices | Lower blood pressure |
+| Cream for richness | Blended cashews, silken tofu | Protein-rich |
+| Sugar in chai | Cinnamon, cardamom | Blood sugar balance |
+| Soy sauce (high sodium) | Coconut aminos | 65% less sodium |
+| Store-bought sauces | Homemade with natural ingredients | No preservatives |
+
+## Cooking Oil Guide
+| Oil | Best Use | Key Fat Type | Notes |
+|-----|----------|-------------|-------|
+| Extra virgin olive oil | Salads, light sautéing | Monounsaturated | High polyphenols |
+| Cold-pressed mustard oil | Indian cooking | Omega-3 & 6 | Traditional, healthy |
+| Coconut oil | High-heat cooking | MCT saturated | Use sparingly |
+| Avocado oil | High-heat cooking | Monounsaturated | High smoke point |
+| Sesame oil (toasted) | Finishing flavour | Polyunsaturated | Asian cuisine |
+| Flaxseed oil | Cold use only (salads) | Omega-3 ALA | Never heat |
+
+## Food Prep Substitutions
+| Method | Traditional | DIP Diet Alternative |
+|--------|------------|---------------------|
+| Deep fry pakodas | 12g fat/piece | Air fry or bake — 2g fat/piece |
+| Cream-based curries | 15g fat/serving | Blended tomato + cashew — 5g fat |
+| Frying eggs | 12g fat | Poach eggs — 5g fat |
+| Sautéed vegetables (2 tbsp oil) | 27g fat | Steam or dry-sauté — 0-3g fat |
