@@ -63,26 +63,26 @@ RAG Pipeline
 ```
 dip_diet_agent/
 ├── backend/
-│   ├── main.py                  # FastAPI app
-│   ├── rag_pipeline.py          # RAG: embed, retrieve, generate
-│   ├── llm_client.py            # IBM Granite LLM client
-│   ├── meal_plan_generator.py   # Structured meal plan generation
-│   ├── shopping_list_generator.py # Shopping list builder
-│   ├── ingest.py                # Document ingestion
-│   ├── models.py                # Pydantic data models
-│   └── config.py                # Configuration
+│   ├── main.py                      # FastAPI application entry point
+│   ├── rag_pipeline.py              # RAG: embed, retrieve, generate
+│   ├── llm_client.py                # IBM Granite LLM client
+│   ├── meal_plan_generator.py       # Structured meal plan generation
+│   ├── shopping_list_generator.py   # Shopping list builder
+│   ├── ingest.py                    # Document ingestion pipeline
+│   ├── models.py                    # Pydantic data models
+│   └── config.py                    # Configuration & environment variables
 ├── frontend/
-│   ├── index.html               # SPA
-│   ├── style.css                # Styles
-│   └── app.js                   # Frontend logic
+│   ├── index.html                   # SPA entry point
+│   ├── style.css                    # Application styles
+│   └── app.js                       # Frontend JavaScript logic
 ├── data/
-│   ├── knowledge_base/          # Nutrition documents
-│   ├── profiles/                # User profiles (JSON)
-│   └── chroma_db/               # Vector database
+│   ├── knowledge_base/              # Nutrition documents (TXT, MD, CSV)
+│   ├── profiles/                    # User profiles (JSON — gitignored)
+│   └── chroma_db/                   # ChromaDB vector database (gitignored)
 ├── tests/
-│   └── test_agent.py            # Unit tests
-├── .env.example                 # Environment variable template
-└── requirements.txt             # Python dependencies
+│   └── test_agent.py                # Unit and integration tests
+├── .env.example                     # Environment variable template
+└── requirements.txt                 # Python dependencies
 ```
 
 ---

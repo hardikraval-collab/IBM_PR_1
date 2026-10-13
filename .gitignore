@@ -1,4 +1,4 @@
-﻿# ============================================================
+# ============================================================
 # DIP Diet RAG Agent — .gitignore
 # Repository root: IBM_PR_1
 # ============================================================
@@ -15,6 +15,7 @@ venv/
 env/
 .venv/
 .env/
+dip_diet_agent/venv/
 
 # ── Environment / secrets (keep .env.example, ignore .env) ───
 .env
@@ -31,9 +32,11 @@ dip_diet_agent/data/profiles/
 *.log
 logs/
 server.log
+dip_diet_agent/server.log
 
 # ── Test / coverage artifacts ────────────────────────────────
 .pytest_cache/
+dip_diet_agent/.pytest_cache/
 .coverage
 htmlcov/
 *.coveragerc
