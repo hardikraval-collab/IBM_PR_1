@@ -14,7 +14,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 
-from backend.config import PROFILES_DIR, MEDICAL_DISCLAIMER, DEMO_MODE
+from backend.config import PROFILES_DIR, MEDICAL_DISCLAIMER, DEMO_MODE, ALLOWED_ORIGINS
 from backend.models import (
     UserProfile,
     ChatRequest,
@@ -73,7 +73,7 @@ app = FastAPI(
 # ── CORS ──────────────────────────────────────────────────────────────────────
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

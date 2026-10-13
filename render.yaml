@@ -1,0 +1,53 @@
+services:
+  - type: web
+    name: dip-diet-rag-agent
+    runtime: python
+    region: oregon        # Change to "frankfurt" or "singapore" if preferred
+    plan: free            # Upgrade to "starter" ($7/mo) for persistent disk
+    rootDir: dip_diet_agent
+
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+
+    startCommand: >
+      uvicorn backend.main:app
+      --host 0.0.0.0
+      --port $PORT
+      --workers 1
+      --log-level info
+
+    healthCheckPath: /api/health
+
+    envVars:
+      # ── IBM watsonx.ai credentials (set in Render dashboard → Environment) ──
+      - key: WATSONX_API_KEY
+        sync: false          # Must be set manually in the Render dashboard
+      - key: WATSONX_PROJECT_ID
+        sync: false
+      - key: WATSONX_URL
+        value: https://us-south.ml.cloud.ibm.com
+      - key: GRANITE_MODEL_ID
+        value: ibm/granite-13b-instruct-v2
+
+      # ── RAG / embedding settings ────────────────────────────────────────────
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: CHUNK_SIZE
+        value: "512"
+      - key: CHUNK_OVERLAP
+        value: "64"
+      - key: TOP_K_RESULTS
+        value: "4"
+      - key: CHROMA_COLLECTION_NAME
+        value: dip_diet_kb
+
+      # ── LLM generation ──────────────────────────────────────────────────────
+      - key: LLM_MAX_NEW_TOKENS
+        value: "800"
+      - key: LLM_TEMPERATURE
+        value: "0.7"
+
+      # ── Server ──────────────────────────────────────────────────────────────
+      - key: DEBUG
+        value: "false"

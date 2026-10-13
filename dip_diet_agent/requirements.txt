@@ -1,34 +1,35 @@
-# DIP Diet RAG Agent — Python Dependencies
+# DIP Diet RAG Agent — Deployment Requirements
+# Pinned to versions confirmed working in the project virtualenv.
 # Install with: pip install -r requirements.txt
 
 # ── Web Framework ──────────────────────────────────────────────────────────────
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
-python-multipart==0.0.9
+fastapi==0.143.0
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
 
 # ── Data Validation ────────────────────────────────────────────────────────────
-pydantic==2.7.3
-pydantic-settings==2.3.0
+pydantic==2.14.1
+pydantic-settings==2.10.1
 
 # ── Environment ────────────────────────────────────────────────────────────────
 python-dotenv==1.0.1
 
 # ── RAG & Embeddings ──────────────────────────────────────────────────────────
-sentence-transformers==3.0.1
-chromadb==0.5.3
-langchain==0.2.6
-langchain-community==0.2.6
-langchain-text-splitters==0.2.2
+sentence-transformers==3.4.1
+chromadb==0.6.3
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-text-splitters==0.3.8
 
 # ── IBM WatsonX AI (IBM Granite LLM) ─────────────────────────────────────────
-ibm-watsonx-ai==1.0.10
+ibm-watsonx-ai==1.8.0
 
 # ── HTTP Client ────────────────────────────────────────────────────────────────
-httpx==0.27.0
+httpx==0.28.1
 requests==2.32.3
 
 # ── Utilities ─────────────────────────────────────────────────────────────────
-numpy==1.26.4
+numpy>=1.26.4,<3.0
 
 # ── Testing ───────────────────────────────────────────────────────────────────
 pytest>=8.0.0

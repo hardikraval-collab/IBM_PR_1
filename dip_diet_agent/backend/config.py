@@ -12,8 +12,14 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 KNOWLEDGE_BASE_DIR = DATA_DIR / "knowledge_base"
-PROFILES_DIR = DATA_DIR / "profiles"
-CHROMA_DB_DIR = DATA_DIR / "chroma_db"
+
+# On Render (and other read-only filesystems) write mutable data to /tmp.
+# Render sets the "RENDER" environment variable automatically on all services.
+_ON_RENDER = bool(os.getenv("RENDER"))
+_WRITABLE_ROOT = Path("/tmp/dip_diet") if _ON_RENDER else DATA_DIR
+
+PROFILES_DIR = _WRITABLE_ROOT / "profiles"
+CHROMA_DB_DIR = _WRITABLE_ROOT / "chroma_db"
 
 # Ensure directories exist
 KNOWLEDGE_BASE_DIR.mkdir(parents=True, exist_ok=True)
@@ -52,7 +58,17 @@ LLM_REPETITION_PENALTY = float(os.getenv("LLM_REPETITION_PENALTY", "1.1"))
 # ── Server Configuration ──────────────────────────────────────────────────────
 HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", "8000"))
-DEBUG = os.getenv("DEBUG", "true").lower() == "true"
+DEBUG = os.getenv("DEBUG", "false").lower() == "true"
+
+# ── CORS ──────────────────────────────────────────────────────────────────────
+# Comma-separated list of allowed origins.
+# Default "*" works for same-origin serving; set explicitly for cross-origin.
+ALLOWED_ORIGINS_RAW = os.getenv("ALLOWED_ORIGINS", "*")
+ALLOWED_ORIGINS: list = (
+    ["*"]
+    if ALLOWED_ORIGINS_RAW.strip() == "*"
+    else [o.strip() for o in ALLOWED_ORIGINS_RAW.split(",") if o.strip()]
+)
 
 # ── Safety Guardrails ─────────────────────────────────────────────────────────
 MEDICAL_DISCLAIMER = (
