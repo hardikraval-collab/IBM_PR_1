@@ -49,9 +49,10 @@ async def lifespan(app: FastAPI):
     """Application lifespan handler — runs on startup and shutdown."""
     # Startup
     logger.info("DIP Diet RAG Agent starting up...")
-    logger.info(f"Mode: {'DEMO (no WatsonX)' if DEMO_MODE else 'PRODUCTION (IBM Granite)'}")
-    count = ingest_all_knowledge_base_docs()
-    logger.info(f"Knowledge base ready. Total chunks: {count + rag_pipeline.collection.count()}")
+    from backend.llm_client import llm_client as _llm
+    logger.info(f"Mode: {'DEMO (no WatsonX)' if _llm.demo_mode else 'PRODUCTION (IBM Granite)'}")
+    ingest_all_knowledge_base_docs()
+    logger.info(f"Knowledge base ready. Total chunks: {rag_pipeline.collection.count()}")
     yield
     # Shutdown
     logger.info("DIP Diet RAG Agent shutting down.")
