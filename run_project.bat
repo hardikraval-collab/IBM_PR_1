@@ -57,8 +57,8 @@ echo [INFO] Installing dependencies (this may take a few minutes on first run)..
 pip install --upgrade pip --quiet
 pip install -r requirements.txt --quiet
 if errorlevel 1 (
-    echo [WARN] Some packages may have had issues. Trying individual install...
-    pip install fastapi uvicorn[standard] python-multipart pydantic python-dotenv --quiet
+    echo [WARN] Some packages may have had issues. Trying core packages individually...
+    pip install fastapi "uvicorn[standard]" python-multipart pydantic python-dotenv --quiet
     pip install sentence-transformers chromadb langchain langchain-text-splitters --quiet
     pip install ibm-watsonx-ai --quiet
 )
@@ -81,23 +81,33 @@ if not exist "data\profiles" mkdir "data\profiles"
 if not exist "data\knowledge_base" mkdir "data\knowledge_base"
 if not exist "data\chroma_db" mkdir "data\chroma_db"
 
-echo [INFO] Starting DIP Diet RAG Agent server...
 echo.
-echo  ┌────────────────────────────────────────────────────┐
-echo  │  🥗 DIP Diet Agent is starting...                  │
-echo  │                                                    │
-echo  │  Open in browser: http://localhost:8000            │
-echo  │  API Documentation: http://localhost:8000/api/docs │
-echo  │                                                    │
-echo  │  Press Ctrl+C to stop the server                   │
-echo  └────────────────────────────────────────────────────┘
+echo  ┌────────────────────────────────────────────────────────────────┐
+echo  │  DIP Diet Agent is starting...                                 │
+echo  │                                                                │
+echo  │  NOTE: First startup downloads the AI embedding model         │
+echo  │        (~80 MB). This can take 60-120 seconds.                │
+echo  │        Please wait for the "Application startup complete"      │
+echo  │        message before opening the browser.                     │
+echo  │                                                                │
+echo  │  App:  http://localhost:8000                                   │
+echo  │  Docs: http://localhost:8000/api/docs                          │
+echo  │                                                                │
+echo  │  Press Ctrl+C to stop the server                               │
+echo  └────────────────────────────────────────────────────────────────┘
 echo.
 
-REM ── Small delay then open browser ─────────────────────────────────────────
-start "" cmd /c "timeout /t 4 >nul && start http://localhost:8000"
+REM ── Wait for "Application startup complete" then open browser ─────────────
+REM    Polls port 8000 every 5 seconds for up to 3 minutes, then opens browser.
+start "" cmd /c "^
+for /L %%i in (1,1,36) do (^
+    timeout /t 5 >nul 2>&1 ^&^& ^
+    powershell -Command \"try { $r = Invoke-WebRequest http://localhost:8000/api/health -TimeoutSec 2 -UseBasicParsing -ErrorAction Stop; if ($r.StatusCode -eq 200) { start http://localhost:8000; exit 0 } } catch {}\" ^
+) ^
+"
 
-REM ── Start the FastAPI server ───────────────────────────────────────────────
-python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+REM ── Start the FastAPI server (no --reload so it starts faster) ────────────
+python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000
 
 REM ── If server exits ────────────────────────────────────────────────────────
 echo.

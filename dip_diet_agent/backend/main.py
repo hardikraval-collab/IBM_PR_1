@@ -101,11 +101,13 @@ async def root():
 @app.get("/api/health")
 async def health_check():
     """Health check endpoint."""
+    from backend.llm_client import llm_client as _llm
+    in_demo = _llm.demo_mode
     return {
         "status": "healthy",
-        "mode": "demo" if DEMO_MODE else "production",
+        "mode": "demo" if in_demo else "production",
         "knowledge_base_chunks": rag_pipeline.collection.count(),
-        "llm_model": "IBM Granite (WatsonX)" if not DEMO_MODE else "Demo Mode",
+        "llm_model": "IBM Granite (WatsonX)" if not in_demo else "Demo Mode",
         "disclaimer": MEDICAL_DISCLAIMER,
     }
 
