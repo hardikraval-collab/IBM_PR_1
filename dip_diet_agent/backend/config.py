@@ -27,8 +27,23 @@ PROFILES_DIR.mkdir(parents=True, exist_ok=True)
 CHROMA_DB_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── IBM WatsonX Configuration ─────────────────────────────────────────────────
-WATSONX_API_KEY = os.getenv("WATSONX_API_KEY", "")
-WATSONX_PROJECT_ID = os.getenv("WATSONX_PROJECT_ID", "")
+# Treat placeholder/example values as absent so DEMO_MODE stays True.
+_PLACEHOLDERS = {
+    "your_ibm_cloud_api_key_here",
+    "your_watsonx_project_id_here",
+    "your_api_key",
+    "your_project_id",
+    "<your_api_key>",
+    "<your_project_id>",
+}
+
+def _real_env(key: str, default: str = "") -> str:
+    """Return env var value, treating known placeholder strings as empty."""
+    val = os.getenv(key, default).strip()
+    return "" if val in _PLACEHOLDERS else val
+
+WATSONX_API_KEY = _real_env("WATSONX_API_KEY")
+WATSONX_PROJECT_ID = _real_env("WATSONX_PROJECT_ID")
 WATSONX_URL = os.getenv("WATSONX_URL", "https://us-south.ml.cloud.ibm.com")
 
 # IBM Granite Model ID

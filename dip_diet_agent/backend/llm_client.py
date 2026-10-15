@@ -66,7 +66,13 @@ class GraniteLLMClient:
             )
             self.demo_mode = True
         except Exception as exc:
-            logger.error(f"Failed to initialize WatsonX: {exc}")
+            # Treat any init failure (bad key, network, timeout) as demo mode
+            # so startup is never blocked by credential errors.
+            logger.warning(
+                f"WatsonX init failed — falling back to DEMO mode. "
+                f"Reason: {exc}"
+            )
+            self.model = None
             self.demo_mode = True
 
     def generate(self, prompt: str, system_prompt: Optional[str] = None) -> str:
